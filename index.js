@@ -53,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('donation-total').textContent = newTotalMoney + ' BDT';
             }
 
+            alert('Thank you for your donation of ${amountDonated} BDT!');
+
             donateAmount.value = '';
         }
     }
